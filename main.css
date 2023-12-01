@@ -1,0 +1,90 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.navbar {
+    background-color: #000550;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: #000550;
+}
+
+#cabecalho .nav .nav-link, 
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover {
+    color: #fff;
+}
+
+.navbar-toggler {
+    background-color: #b3c2ec;
+}
+
+.section-title {
+    font-family: Viga, sans-serif;
+}
+
+#carousel .carousel-inner {
+    height: 700px; 
+}
+
+#carousel .carousel-item img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+#sobre-o-parque, #nosso-espaco {
+    background-color: #b3c2ec;
+}
+
+.text-colored {
+    color: #000550;
+}
+
+.nav-cardapio .nav-link.active,
+#fale-conosco button {
+    background-color: #000550;
+    color: #fff;
+}
+
+.nav-cardapio .nav-link:hover {
+    color: #000550;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 767px) {
+
+    #carousel .carousel-inner {
+        height: 230px; 
+    }
+
+    .carousel-item img {
+        height: 100%;
+        width: 100%;
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    #carousel .carousel-inner {
+        height: 400px; 
+    }
+
+    .carousel-item img {
+        height: 100%;
+        width: 100%;
+    }
+
+}
